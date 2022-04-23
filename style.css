@@ -1,0 +1,229 @@
+/* start header */
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    display: block;
+}
+.header{
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.button{
+    float: left;
+    margin-left :230px;
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+.button ul{
+    list-style-type: none;
+}
+
+ul.button-list li{
+    display: inline;
+    text-align: center;
+    margin: 4px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 10px;
+    align-items: center;
+}
+ul.button-list li#ind{
+    background-color: #00529c;
+}
+.logo{
+    margin: 0px 100px 0px 100px;
+    position: relative;
+    text-align: center;
+}
+
+.logo img{
+    width: 182px;
+    height:60px;
+}
+.search{
+    float: right;
+    margin :20px 240px 0px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    font-size: 11px;
+    width: 160px;
+}
+.nav{
+    font-size: 13px;
+    margin:-15px 0px 0px 0px;
+}
+.nav  ul{
+    list-style-type: none;
+}
+
+.nav ul.nav-list li{
+    display: inline;
+    padding: 0px 24px;
+}
+.border-n{
+    border-bottom: 3px solid  #00529c;
+    margin: 0px 238px 0px 274px;
+}
+/* end header */
+.slider{
+    width: 100%;
+    display: block;
+}
+.slide img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.prod-list ul{
+    list-style-type: none;
+    text-align: center;
+}
+.produk{
+    background-image: linear-gradient(#b0afab,#e9e8e3);
+    margin-top: -20px;
+}
+.prod-list ul li{
+    display: inline;
+}
+.prod-list ul li img{
+    height:210px ;
+}
+.prod-list ul li img:hover{
+    background-image: linear-gradient(rgba(232, 231, 227, 0.815),#e8e7e2);
+}
+
+.berita{
+    margin: 0px 57px;
+    position:relative;
+}
+.left{
+    width: 470px;
+    float:left;
+    margin-left: 220px;
+}
+.right{
+    float: right;
+    margin-right: 220px;
+}
+
+.konten-1, .konten-2{
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+.konten-1{
+    float: left;
+    width: 220px;
+}
+.konten-2{
+    width: 220px;
+    margin-left: 220px;
+
+}
+.konten-1 .waktu{
+    text-align: center;
+}
+.konten-2 .waktu{
+    text-align: center;
+}
+.konten-2 .text{
+    padding-right: 20px;
+}
+
+.waktu{
+    float:left;
+}
+.waktu .tanggal{
+    font-size: 20px;
+    color: #787878;
+    padding-top: 8px;
+    width: 40px;
+    background-color:  #efefed; 
+}
+.waktu .bulan{
+    font-size: 15px;
+    padding-top: 8px;
+    width: 40px;
+    background-color:  #cfcfcf;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: white;
+}
+.waktu .tahun{
+    font-size: 18px;
+    padding-top: 8px;
+    color: #b8b7b6;
+    width: 40px;
+    
+}
+.text{
+    font-size: 13px;
+    margin-left: 70px;
+    padding-right: 60px;
+    text-align: justify;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.kegiatan{
+    /* border: 1px solid black; */
+    height: 200px;
+    margin:0px 25px 0px 220px ;
+    width: 470;
+    float: left;
+}
+.border-b{
+    border-bottom:3px solid #00529c;
+    margin: 0px 238px 0px 274px;
+    padding-top: 200px;
+}
+.atas > *{vertical-align:middle;}
+.atas .waktu{
+    text-align: center;
+}
+.atas .img-prod{
+    display: inline;
+    margin-left: 30px;
+}
+.atas .link{
+    display: inline;
+}
+.produk-baru{
+    float: right;
+    text-align: left;
+    height: 217px;
+}
+.beritaa{
+    padding-left:12px ;
+}
+/* footer */
+#info{
+    border-top: 1px solid #B6B6B6;
+    font-size: 13px;
+    margin: 400px 0px 0px 0px;
+    padding: 10px 0px;
+    
+}
+.information{
+    margin-left: 200px;
+    float: left;
+    color: #787878;
+    padding: 0px 5px;
+}
+.copyright{
+    color: #B6B6B6;
+    font-size: 11px;
+}
+.CC{
+    margin-right: 125px;
+    float: right;
+}
